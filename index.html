@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/window.css">
+    <link rel="stylesheet" href="css/side-bar.css">
+    <link rel="stylesheet" href="css/tinyView1.css">
+    <link rel="stylesheet" href="css/tinyView2.css">
+    <script src="./lib/fontsizeset.js"></script>
+    <script src="./lib/d3.js" charset="utf-8"></script>
+    <!-- 1rem = 14.6px -->
+</head>
+<body>
+    <header>
+        <h1>数据可视化大作业</h1>
+    </header>
+    <div class="whole-window">
+        <div class="item main-view">
+            <img src="pic/douban_pic.webp" alt="" class="pic">
+        </div>
+        <div class="item side-bar">
+            <h3 class="side-header">豆瓣top250</h3>
+            <ul class="book-list"></ul>
+        </div>
+        
+        <div class="view1-title">
+            <h6>&nbsp&nbsp&nbsp&nbsp（年份:00） --------------------------></h6>
+        </div>
+        <div class="item tiny-view-1">
+            <svg class="svg1" xmlns="http://www.w3.org/2000/svg" view-box="0 0 27rem 11rem">
+            </svg>
+        </div>
+
+        <div class="view2-title">
+            <h6>作者作品数-></h6>
+        </div>
+        <div class="item tiny-view-2">
+            <svg class="svg2" xmlns="http://www.w3.org/2000/svg" view-box="0 0 27rem 11rem">
+            </svg>
+        </div>
+        <script src="./js/myScript.js"></script>
+    </div>
+</body>
+</html>

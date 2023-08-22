@@ -1,0 +1,59 @@
+.side-bar .side-header{
+    width: 17rem;
+    height: 2.2rem;
+    margin:0 auto;
+    border-radius: 0 1.5rem 0 0;
+    background-color: rgb(3,54,73);
+    color: #ebebd3;
+    text-align: center;
+    line-height: 2.2rem;
+}
+.side-bar .book-list{
+    width: 17rem;
+    height: 20rem;
+    margin:0 auto;
+    background-color: rgb(1,77,103);
+    overflow:hidden;
+}
+
+/* 鼠标划入,显示滚动条 */
+.side-bar .book-list:hover{
+    overflow-y:scroll;
+}
+.side-bar .book-list:hover::-webkit-scrollbar{
+    width: 0.5rem;
+    border-radius: 0.8rem;  
+    background: rgb(1,77,103);
+}
+.side-bar .book-list:hover::-webkit-scrollbar-thumb{
+    height: 8rem;
+    border-radius: 0.5rem;  
+    background: rgb(3,54,73);
+}
+
+.side-bar .book-list li{
+    position: relative;
+    height: 1.8rem;
+    width: 16rem;
+    color: rgb(137,157,192);
+    margin: 0 0.5rem;
+    list-style: none;
+    border-bottom: 1px dashed grey;
+
+    line-height: 1.8rem;
+    box-sizing: border-box;
+}
+.side-bar .book-list li .rank{
+    position: absolute;
+    left: 0rem;
+    width: 1.6rem;
+    text-align: center;
+    font-size: 0.8rem;
+    box-sizing: border-box;
+}
+.side-bar .book-list li .name{
+    position: absolute;
+    left: 2.0rem;
+    font-size: 0.8rem;
+    box-sizing: border-box;
+}
