@@ -3,7 +3,7 @@ layout: page
 ---
 # "The Sub-3Sec Problem: From Text-Independent to Text-Dependent Corpus"
 
-<img src="https://github.com/slash1028/Sub3Vox/blob/main/Image/Paper_title.png" class="floatpic" width="600" height="480">
+<img src="https://github.com/slash1028/Sub3Vox/blob/main/Image/Paper_title.png" class="floatpic" width="600" height="280">
 
 ## The Sub-3Sec Problem
 
