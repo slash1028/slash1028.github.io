@@ -3,7 +3,7 @@ layout: page
 ---
 # "The Sub-3Sec Problem: From Text-Independent to Text-Dependent Corpus"
 
-<img src="https://github.com/slash1028/Sub3Vox/blob/main/Image/Paper_title.png" class="floatpic" width="600" height="200">
+<img src="/Image/Paper_title.png" class="floatpic" width="600" height="200">
 
 ## The Sub-3Sec Problem
 
@@ -19,7 +19,7 @@ Taking English as an example, the typical speaking rate in English is 4 syllable
 
   In the paper, we propose an automatic pipeline to curate TD-SV corpora from TI-SV corpora, which addresses the shortcomings of the existing TD corpora not being large enough and saves the effort in manual recording.
 
-<img src="https://github.com/slash1028/Sub3Vox/blob/main/Image/overall.png" class="floatpic" width="600" height="280">
+<img src="/Image/overall.png" class="floatpic" width="600" height="280">
 
 ---
 
