@@ -13,7 +13,7 @@ layout: page
     text-align: center;
   }
   .responsive-img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
   }
 </style>
