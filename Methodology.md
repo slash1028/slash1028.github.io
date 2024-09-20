@@ -4,7 +4,7 @@ permalink: /Methodology/index.html
 title: Corpus Methodology
 ---
 
-# Hobbies
+# Corpus Methodology
 
 ## Derive TD Corpora from TI Corpora
 
