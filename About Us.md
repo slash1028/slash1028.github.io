@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /teams/index.html
-title: Teams
+permalink: /About Us/index.html
+title: About Us
 ---
 
 ## Motivation

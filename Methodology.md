@@ -8,26 +8,15 @@ title: Corpus Methodology
 
 ## Derive TD Corpora from TI Corpora
 
-<div>
+<center>
 <img src="/Image/overall.png">
-</div>
-<br>
+</center>
 
-<div class="third">
-<img src="/Image/overall.png">
-<img src="/images/swimming.JPG">
-<img src="/images/surfing1.JPG">
-</div>
 <br>The sub-3sec problem motivates a new way to gather resources for text-dependent verification. Typically, speech corpora are curated by requesting speakers to speak live through some recording front-ends or remotely through a telephone or mobile network [26]. Over the years, many corpora, such as TIMIT [27], RSR2015 [28], and Mixer [29], have played a critical role in advancing speaker recognition technology. However, the laborious manual work always limit the size of these corpora compared with the automatically curated ones, such as the VoxCeleb [19]. To solve the sub- 3sec problem mentioned in Section II, it is possible to derive a large text-dependent corpus from text-independent corpora using automated pipelines, since it is easy to find enough short phrases less than three seconds that many people would say in daily life from large TI corpora. On the other hand, number of longer phrases (such as “open the refrigerator to get some vegetables and drinks”) is much smaller. The flowchart of our proposed automatic pipeline is shown in Figure 1. It contains four steps, which will be explained further in the following subsections.
 
 ## Text Analysis
 
-<div class="third">
-<img src="/images/prelection1.JPG">
-<img src="/images/speech1.JPG">
-<img src="/images/speech3.JPG">
-</div>
-<br>Text-dependent corpora focus more on lexical content than text-independent ones. To develop a TD corpus, the first step is selecting available passphrases. If the TI corpus lacks transcriptions, such as VoxCeleb, transcribing the text from utterances is necessary. Various self-supervised learning (SSL) front-ends can be used for automatic speech recognition (ASR) tasks, including wav2vec 2.0 [30], WavLM [31], HuBERT [32], and Whisper [33]. We used Whisper from OpenAI for ASR on text-independent corpora. However, hallucinations are a common issue in large models, including the Whisper model, which often repeats sentences or transcribes non-existent content. To address this issue, voice activity detection (VAD) is used to distinguish between speech and non-speech segments in a signal. By separating these parts in advance, VAD reduces auditory hallucinations in the Whisper model and improves recognition speed. 
+Text-dependent corpora focus more on lexical content than text-independent ones. To develop a TD corpus, the first step is selecting available passphrases. If the TI corpus lacks transcriptions, such as VoxCeleb, transcribing the text from utterances is necessary. Various self-supervised learning (SSL) front-ends can be used for automatic speech recognition (ASR) tasks, including wav2vec 2.0 [30], WavLM [31], HuBERT [32], and Whisper [33]. We used Whisper from OpenAI for ASR on text-independent corpora. However, hallucinations are a common issue in large models, including the Whisper model, which often repeats sentences or transcribes non-existent content. To address this issue, voice activity detection (VAD) is used to distinguish between speech and non-speech segments in a signal. By separating these parts in advance, VAD reduces auditory hallucinations in the Whisper model and improves recognition speed. 
 
 
 ## N-gram Frequency Analysis
@@ -37,11 +26,6 @@ After obtaining the text content from utterances in the TI corpus, we selected s
 ##  Trimming
 
 With the most commonly used phrases among the corpus, we trimmed the corresponding segment according to the timestamps of each phrase to form the test utterances. When processing the data from VoxCeleb1, we make the folder storage structure of the proposed Sub3Vox as consistent as possible with the original corpus.
-
-<div>
-<img src="/images/cat.JPG">
-</div>
-<br>
 
 ##  Manual Check
 

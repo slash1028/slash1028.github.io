@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /awards/index.html
-title: Awards
+permalink: /Results/index.html
+title: Corpus Results
 ---
 
 > Lastest Update: 27th August 2024

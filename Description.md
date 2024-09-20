@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /publications/index.html
-title: Publications
+permalink: /Description/index.html
+title: Corpus Description
 ---
 
 > (†: equal contribution, ~: corresponding author)
