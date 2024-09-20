@@ -44,7 +44,7 @@ Taking English as an example, the typical speaking rate in English is 4 syllable
   In the paper, we propose an automatic pipeline to curate TD-SV corpora from TI-SV corpora, which addresses the shortcomings of the existing TD corpora not being large enough and saves the effort in manual recording.
 
 <center>
-  <img src="https://slash1028.github.io/Sub3Vox/Image/overall.png" width="500" height: auto>
+  <img src="https://slash1028.github.io/Sub3Vox/Image/overall.png" class="responsive-img" alt="自适应图片">
 </center>
 
 ## How and When you can access the database
