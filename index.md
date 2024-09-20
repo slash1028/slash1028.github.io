@@ -1,10 +1,30 @@
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>自适应图片</title>
+<style>
+  .center {
+    text-align: center;
+  }
+  .responsive-img {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
+</head>
+<body>
+</div>
+</body>
+</html>
+
 layout: page
 ---
 # "The Sub-3Sec Problem: From Text-Independent to Text-Dependent Corpus"
 
 <center>
-<img src="https://slash1028.github.io/Sub3Vox/Image/Paper_title.png" class="floatpic" width="600" height="200">
+  <img src="https://slash1028.github.io/Sub3Vox/Image/Paper_title.png" class="responsive-img" alt="自适应图片">
 </center>
 
 ## The Sub-3Sec Problem
@@ -15,14 +35,12 @@ Taking English as an example, the typical speaking rate in English is 4 syllable
 
 ## Sub3Vox Corpus
 
-[Prof. Zhezhuang Xu](https://www.researchgate.net/profile/Zhezhuang-Xu) [Dr. Meng Yuan](https://www.researchgate.net/profile/Meng-Yuan-4). [Prof. Pietro Liò](https://www.cl.cam.ac.uk/~pl219/)  an **AAAI & KDD UC Scholar**. - *hanlin[dot]cai[at]ieee[dot]org*
-
- The Sub3Vox, a new English corpus, is introduced for TD-SV. It was created from a TI-SV dataset in an automated pipeline and is larger than any existing TD-SV corpora. This is the first time that a TD-SV corpus has been created from a TI-SV corpus. The characteristics of the Sub3Vox are analyzed, and its baseline performance is reported.
+The Sub3Vox, a new English corpus, is introduced for TD-SV. It was created from a TI-SV dataset in an automated pipeline and is larger than any existing TD-SV corpora. This is the first time that a TD-SV corpus has been created from a TI-SV corpus. The characteristics of the Sub3Vox are analyzed, and its baseline performance is reported.
 
   In the paper, we propose an automatic pipeline to curate TD-SV corpora from TI-SV corpora, which addresses the shortcomings of the existing TD corpora not being large enough and saves the effort in manual recording.
 
 <center>
-<img src="https://slash1028.github.io/Sub3Vox/Image/overall.png" class="floatpic" width="600" height="300">
+<img src="https://slash1028.github.io/Sub3Vox/Image/overall.png" class="responsive-img" alt="自适应图片">
 </center>
 
 ## How and When you can access the database
