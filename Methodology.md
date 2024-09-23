@@ -27,9 +27,14 @@ title: Corpus Methodology
 
 # Corpus Methodology
 
+<br>
 <center>
 <img src="https://slash1028.github.io/Image/overall.png" class="responsive-img" alt="自适应图片">
+
+Fig. 1. Flowchart of the proposed automatic pipeline for creating a TD-SVcorpus from a TI-SV corpus.
 </center>
+<br>
+<br>
 
 ## Derive TD Corpora from TI Corpora
 

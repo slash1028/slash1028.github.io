@@ -11,9 +11,13 @@ layout: page
   .center {
     text-align: center;
   }
-  .responsive-img {
-    max-width: 65%;
+  .responsive-img1 {
+    max-width: 80%;
     height: auto;
+  }
+  .responsive-img2 {
+  max-width: 65%;
+  height: auto;
   }
 </style>
 </head>
@@ -26,7 +30,7 @@ layout: page
 # "The Sub-3Sec Problem: From Text-Independent to Text-Dependent Corpus"
 
   <center>
-  <img src="https://slash1028.github.io/Image/Paper_title.png" class="responsive-img" alt="自适应图片">
+  <img src="https://slash1028.github.io/Image/Paper_title.png" class="responsive-img1" alt="自适应图片">
   </center>
 
 ## The Sub-3Sec Problem
@@ -42,8 +46,9 @@ The Sub3Vox, a new English corpus, is introduced for TD-SV. It was created from 
   In the paper, we propose an automatic pipeline to curate TD-SV corpora from TI-SV corpora, which addresses the shortcomings of the existing TD corpora not being large enough and saves the effort in manual recording.
 
 <center>
-  <img src="https://slash1028.github.io/Image/overall.png" class="responsive-img" alt="自适应图片">
+  <img src="https://slash1028.github.io/Image/overall.png" class="responsive-img2" alt="自适应图片">
 </center>
+<br>
 
 ## How and When you can access the database
 
