@@ -14,7 +14,7 @@ title: Corpus Description
     text-align: center;
   }
   .responsive-img1 {
-    max-width: 100%;
+    max-width: 60%;
     height: auto;
   }
   .responsive-img2 {
@@ -43,11 +43,13 @@ Taking English as an example, the typical speaking rate in English is 4 syllable
   <img src="https://slash1028.github.io/Image/speakernumber.png" class="responsive-img1" alt="自适应图片">
   </center>
 
- We sorted commonly used N-grams in each part of the corpus, as shown in Table II. While we searched for phrases with N ranging from one to nine, higher N-grams naturally appear less frequently
+ <br>We sorted commonly used N-grams in each part of the corpus, as shown in Table II. While we searched for phrases with N ranging from one to nine, higher N-grams naturally appear less frequently
 
    <center>
   <img src="https://slash1028.github.io/Image/totalduration.png" class="responsive-img1" alt="自适应图片">
   </center>
+
+---
 
  ## Types of Errors and the Others
  We classified the recordings in the new corpus into six kinds to ensure robustness and real-world applicability. They are pre-ambiguous, post-ambiguous, pre- and post- ambiguous, stammer, clear, and wrong.
