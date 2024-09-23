@@ -37,11 +37,11 @@ layout: page
 
 The Sub3Vox, a new English corpus, is introduced for TD-SV. It was created from a TI-SV dataset in an automated pipeline and is larger than any existing TD-SV corpora. This is the first time that a TD-SV corpus has been created from a TI-SV corpus. The characteristics of the Sub3Vox are analyzed, and its baseline performance is reported.
 
-  In the paper, we propose an automatic pipeline to curate TD-SV corpora from TI-SV corpora, which addresses the shortcomings of the existing TD corpora not being large enough and saves the effort in manual recording.
+In the paper, we propose an automatic pipeline to curate TD-SV corpora from TI-SV corpora, which addresses the shortcomings of the existing TD corpora not being large enough and saves the effort in manual recording.
 
-  <center>
-  <img src="https://slash1028.github.io/Image/Paper_title.png" class="responsive-img1" alt="自适应图片">
-  </center>
+<center>
+<img src="https://slash1028.github.io/Image/Paper_title.png" class="responsive-img1" alt="自适应图片">
+</center>
 
 ## How and When you can access the database
 
