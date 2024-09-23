@@ -29,7 +29,7 @@ title: Corpus Description
 </body>
 </html>
 
-## The Sub-3Sec Problem
+# The Sub-3Sec Problem
 
 In the past, at least one minute of speech is required for a TI-SV system to achieve good performance [22]. Today’s state-of-the-art TI-SV systems are proven to be effective when speech segments have three to ten seconds, primarily because of sufficient coverage of the phonetic space for such a long segment. However, segments below three seconds are seldom explored by text-independent methods. The lack of lexical coverage in short utterances results in phonetic mismatch between the enrollment and test utterances, causing the performance of TI systems degrades tremendously. Nevertheless, under the same short-utterance scenario, TD-SV systems tend to perform better than TI-SV systems because the linguistic constraint and short utterance duration reduce the chance of having phonetic mismatch [5].
 
@@ -49,11 +49,12 @@ Taking English as an example, the typical speaking rate in English is 4 syllable
   <img src="https://slash1028.github.io/Image/totalduration.png" class="responsive-img1" alt="自适应图片">
   </center>
 
----
-
  ## Types of Errors and the Others
+
  We classified the recordings in the new corpus into six kinds to ensure robustness and real-world applicability. They are pre-ambiguous, post-ambiguous, pre- and post- ambiguous, stammer, clear, and wrong.
 
    <center>
   <img src="https://slash1028.github.io/Image/error_types.png" class="responsive-img1" alt="自适应图片">
   </center>
+
+  Most wrong samples result from fast and ambiguous pronunciation, with only a few caused by hallucinations from the speech recognition model.
