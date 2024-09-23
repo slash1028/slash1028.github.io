@@ -28,7 +28,7 @@ layout: page
   <center>
   <img src="https://slash1028.github.io/Image/Paper_title.png" class="responsive-img" alt="自适应图片">
   </center>
-  
+
 ## The Sub-3Sec Problem
 
 In the past, at least one minute of speech is required for a TI-SV system to achieve good performance [22]. Today’s state-of-the-art TI-SV systems are proven to be effective when speech segments have three to ten seconds, primarily because of sufficient coverage of the phonetic space for such a long segment. However, segments below three seconds are seldom explored by text-independent methods. The lack of lexical coverage in short utterances results in phonetic mismatch between the enrollment and test utterances, causing the performance of TI systems degrades tremendously. Nevertheless, under the same short-utterance scenario, TD-SV systems tend to perform better than TI-SV systems because the linguistic constraint and short utterance duration reduce the chance of having phonetic mismatch [5].
@@ -37,9 +37,7 @@ Taking English as an example, the typical speaking rate in English is 4 syllable
 
 ## Sub3Vox Corpus
 
-[Prof. Zhezhuang Xu](https://www.researchgate.net/profile/Zhezhuang-Xu) [Dr. Meng Yuan](https://www.researchgate.net/profile/Meng-Yuan-4). [Prof. Pietro Liò](https://www.cl.cam.ac.uk/~pl219/)  an **AAAI & KDD UC Scholar**. - *hanlin[dot]cai[at]ieee[dot]org*
-
- The Sub3Vox, a new English corpus, is introduced for TD-SV. It was created from a TI-SV dataset in an automated pipeline and is larger than any existing TD-SV corpora. This is the first time that a TD-SV corpus has been created from a TI-SV corpus. The characteristics of the Sub3Vox are analyzed, and its baseline performance is reported.
+The Sub3Vox, a new English corpus, is introduced for TD-SV. It was created from a TI-SV dataset in an automated pipeline and is larger than any existing TD-SV corpora. This is the first time that a TD-SV corpus has been created from a TI-SV corpus. The characteristics of the Sub3Vox are analyzed, and its baseline performance is reported.
 
   In the paper, we propose an automatic pipeline to curate TD-SV corpora from TI-SV corpora, which addresses the shortcomings of the existing TD corpora not being large enough and saves the effort in manual recording.
 

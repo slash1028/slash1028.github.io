@@ -4,6 +4,27 @@ permalink: /Methodology/index.html
 title: Corpus Methodology
 ---
 
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>自适应图片</title>
+<style>
+  .center {
+    text-align: center;
+  }
+  .responsive-img {
+    max-width: 65%;
+    height: auto;
+  }
+</style>
+</head>
+<body>
+<div class="center">
+</div>
+</body>
+</html>
+
 # Corpus Methodology
 
 <center>
