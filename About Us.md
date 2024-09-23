@@ -15,15 +15,16 @@ Thanks to Xuerui Huang, Chong-Xin Gan, and Lishi Zuo for the help in manual chec
 ## Contact Us
 In case you have any questions and queries about the database you can directly communicate with Ruichen Zuo by email (ruichen.zuo@connect.polyu.hk,).
 
+---
+<!--
+
+
 {%
   include button.html
   type="address"
   tooltip="Our location on Google Maps"
   link="https://maps.app.goo.gl/buxChGFGYULrLfkb9"
 %}
-
----
-<!--
 ## OpenIoT Team
 
 During undergraduate, my two roommates and I co-founded a tech group called OpenIoT. With an entrepreneurial spirit in technology, we participated in numerous innovation and entrepreneurship competitions. As of 2024, the OpenIoT team has grown to include 28 official members and has accumulated a total of six national-level competition awards and over **$20000 funding**.<br>
