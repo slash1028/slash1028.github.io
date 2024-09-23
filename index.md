@@ -29,7 +29,9 @@ layout: page
 
 # Sub3Vox Project
 
-The aim of the DeepMine project is collecting a new database for text-dependent, text-prompted, and text-independent speaker recognition, as well as for Persian speech recognition.
+---
+
+*The aim of the Sub3Vox project is collecting a new database for text-dependent, text-prompted, and text-independent speaker recognition, as well as for Persian speech recognition.*
 
 ## Sub3Vox Corpus
 
