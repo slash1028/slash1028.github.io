@@ -27,6 +27,7 @@ title: Corpus Methodology
 
 # Corpus Methodology
 
+<br>
 <center>
 <img src="https://slash1028.github.io/Image/overall.png" class="responsive-img" alt="自适应图片">
 <br>
