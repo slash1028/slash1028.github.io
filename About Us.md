@@ -4,11 +4,17 @@ permalink: /About Us/index.html
 title: About Us
 ---
 
-## Motivation
+## About Us
 
-As a youth from southern Fujian (Hokkien), entrepreneurial spirit runs in my family's and my own bones. From a young age, we were instilled with the belief that one must become their own "boss" and setup their own business. My aspiration is to become a serial entrepreneur.<br>
+The Sub3Sec project is a joint work by Dr. Kong Aik Lee's Research Team and Innovation Technology (HK) Audio and Speech Signal Processing Joint Laboratory, PolyU<br>
 
----
+{%
+  include button.html
+  type="address"
+  tooltip="Our location on Google Maps"
+  link="https://maps.app.goo.gl/buxChGFGYULrLfkb9"
+%}    
+
 ## Acknowledgement
 Thanks to Xuerui Huang, Chong-Xin Gan, and Lishi Zuo for the help in manual check and participation in discussion.
 
