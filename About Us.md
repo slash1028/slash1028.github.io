@@ -6,20 +6,14 @@ title: About Us
 
 ## About Us
 
-The Sub3Sec project is a joint work by Dr. Kong Aik Lee's Research Team and Innovation Technology (HK) Audio and Speech Signal Processing Joint Laboratory, PolyU<br>
-
-{%
-  include button.html
-  type="address"
-  tooltip="Our location on Google Maps"
-  link="https://maps.app.goo.gl/buxChGFGYULrLfkb9"
-%}    
+The Sub3Sec project is a joint work by [Dr. Lee's Research Team](https://sites.google.com/view/kongaiklee/home) and [Innovation Technology (HK) Audio and Speech Signal Processing Joint Laboratory](https://www.polyu.edu.hk/eee/research/research-themes-and-strength/artificial-intelligence-and-robotics/), PolyU<br>
+Our location on Google Maps can find [here](https://maps.app.goo.gl/buxChGFGYULrLfkb9).  
 
 ## Acknowledgement
 Thanks to Xuerui Huang, Chong-Xin Gan, and Lishi Zuo for the help in manual check and participation in discussion.
 
 ## Contact Us
-In case you have any questions and queries about the database you can directly communicate with Ruichen Zuo by email (ruichen.zuo@connect.polyu.hk,).
+In case you have any questions and queries about the database you can directly communicate with Ruichen Zuo by email (ruichen.zuo@connect.polyu.hk).
 
 ---
 <!--

@@ -12,7 +12,7 @@ layout: page
     text-align: center;
   }
   .responsive-img1 {
-    max-width: 90%;
+    max-width: 100%;
     height: auto;
   }
   .responsive-img2 {
@@ -43,7 +43,7 @@ The Sub3Vox, a new English corpus, is introduced for TD-SV. It was created from 
 
 ## How and When you can access the database
 
-As mentioned before, the project is running now and the first phase of it should be finished by the end of summer. Post-processing of the database needs several months and so we plan the first phase release of the database at the end of 2018. We will try to process the database very quickly and it is possible that the database will be ready in autumn. Anyway, we promise to process and release the database at most by the end of the year. If you are interested in the unprocessed data, we can provide access to the last snapshot of the database. You can communicate with us to discuss about this possibility.
+As mentioned before, the project is running now and the first phase of it should be finished by the end of summer. If you are interested in the unprocessed data, we can provide access to the last snapshot of the database. You can communicate with us to discuss about this possibility.
 
 ## News and Updates
 
