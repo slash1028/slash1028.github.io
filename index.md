@@ -12,7 +12,7 @@ layout: page
     text-align: center;
   }
   .responsive-img1 {
-    max-width: 80%;
+    max-width: 90%;
     height: auto;
   }
   .responsive-img2 {
