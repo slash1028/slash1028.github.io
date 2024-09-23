@@ -37,24 +37,24 @@ Taking English as an example, the typical speaking rate in English is 4 syllable
 
 ## Data Overview
 
- Sub3Vox contains 1,250 speakers: 1,210 in the dev set and 40 in the test set, with 560 female and 690 male speakers. Compared to the original VoxCeleb2, there is a slight decrease in the number of speakers because Sub3Vox includes only English utterances, excluding speakers with samples in other languages. 
+Sub3Vox contains 1,250 speakers: 1,210 in the dev set and 40 in the test set, with 560 female and 690 male speakers. Compared to the original VoxCeleb2, there is a slight decrease in the number of speakers because Sub3Vox includes only English utterances, excluding speakers with samples in other languages. 
 
-   <center>
-  <img src="https://slash1028.github.io/Image/speakernumber.png" class="responsive-img1" alt="自适应图片">
-  </center>
+<center>
+<img src="https://slash1028.github.io/Image/speakernumber.png" class="responsive-img1" alt="自适应图片">
+</center>
 
- <br>We sorted commonly used N-grams in each part of the corpus, as shown in Table II. While we searched for phrases with N ranging from one to nine, higher N-grams naturally appear less frequently
+<br>We sorted commonly used N-grams in each part of the corpus, as shown in Table II. While we searched for phrases with N ranging from one to nine, higher N-grams naturally appear less frequently
 
-   <center>
-  <img src="https://slash1028.github.io/Image/totalduration.png" class="responsive-img1" alt="自适应图片">
-  </center>
+<center>
+<img src="https://slash1028.github.io/Image/totalduration.png" class="responsive-img1" alt="自适应图片">
+</center>
 
- ## Types of Errors and the Others
+## Types of Errors and the Others
 
- We classified the recordings in the new corpus into six kinds to ensure robustness and real-world applicability. They are pre-ambiguous, post-ambiguous, pre- and post- ambiguous, stammer, clear, and wrong.
+We classified the recordings in the new corpus into six kinds to ensure robustness and real-world applicability. They are pre-ambiguous, post-ambiguous, pre- and post- ambiguous, stammer, clear, and wrong.
 
-   <center>
-  <img src="https://slash1028.github.io/Image/error_types.png" class="responsive-img1" alt="自适应图片">
-  </center>
+<center>
+<img src="https://slash1028.github.io/Image/error_types.png" class="responsive-img1" alt="自适应图片">
+</center>
 
-  Most wrong samples result from fast and ambiguous pronunciation, with only a few caused by hallucinations from the speech recognition model.
+Most wrong samples result from fast and ambiguous pronunciation, with only a few caused by hallucinations from the speech recognition model.
