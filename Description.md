@@ -48,6 +48,7 @@ Sub3Vox contains 1,250 speakers: 1,210 in the dev set and 40 in the test set, wi
 <center>
 <img src="https://slash1028.github.io/Image/totalduration.png" class="responsive-img1" alt="自适应图片">
 </center>
+<br>
 
 ## Types of Errors and the Others
 
