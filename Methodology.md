@@ -7,7 +7,7 @@ title: Corpus Methodology
 # Corpus Methodology
 
 <center>
-<img src="https://slash1028.github.io/Sub3Vox/Image/overall.png" class="responsive-img" alt="自适应图片">
+<img src="https://slash1028.github.io/Image/overall.png" class="responsive-img" alt="自适应图片">
 </center>
 
 ## Derive TD Corpora from TI Corpora
@@ -30,6 +30,7 @@ With the most commonly used phrases among the corpus, we trimmed the correspondi
 ##  Manual Check
 
 To ensure the correctness of the dataset, we added a manual check at the end of the automated pipeline. This procedure can detect some problematic and unusual cases in the TI-SV corpus. For example, in VoxCeleb1, the folder of a female speaker (id10384) contains a male speaker’s clip, which our pipeline could not automatically detect. Therefore, random checking by human listeners is necessary to minimize the number of incorrectly annotated segments. 
+
 
 **Jan 2023:** I have set up the [online-coffee-time](https://calendly.com/lancecai/meet-with-lance) (Inspired by [Shangzhe Wu](https://elliottwu.com/)). Welcome to chat with me!
 

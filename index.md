@@ -25,10 +25,12 @@ layout: page
 
 # "The Sub-3Sec Problem: From Text-Independent to Text-Dependent Corpus"
 
-<center>
-  <img src="https://slash1028.github.io/Sub3Vox/Image/Paper_title.png" class="responsive-img" alt="自适应图片">
-</center>
-
+{%
+  include self.html
+  <center>
+  <img src="https://slash1028.github.io/Image/Paper_title.png" class="responsive-img" alt="自适应图片">
+  </center>
+%}
 ## The Sub-3Sec Problem
 
 In the past, at least one minute of speech is required for a TI-SV system to achieve good performance [22]. Today’s state-of-the-art TI-SV systems are proven to be effective when speech segments have three to ten seconds, primarily because of sufficient coverage of the phonetic space for such a long segment. However, segments below three seconds are seldom explored by text-independent methods. The lack of lexical coverage in short utterances results in phonetic mismatch between the enrollment and test utterances, causing the performance of TI systems degrades tremendously. Nevertheless, under the same short-utterance scenario, TD-SV systems tend to perform better than TI-SV systems because the linguistic constraint and short utterance duration reduce the chance of having phonetic mismatch [5].
@@ -44,7 +46,7 @@ Taking English as an example, the typical speaking rate in English is 4 syllable
   In the paper, we propose an automatic pipeline to curate TD-SV corpora from TI-SV corpora, which addresses the shortcomings of the existing TD corpora not being large enough and saves the effort in manual recording.
 
 <center>
-  <img src="https://slash1028.github.io/Sub3Vox/Image/overall.png" class="responsive-img" alt="自适应图片">
+  <img src="https://slash1028.github.io/Image/overall.png" class="responsive-img" alt="自适应图片">
 </center>
 
 ## How and When you can access the database

@@ -9,6 +9,20 @@ title: About Us
 As a youth from southern Fujian (Hokkien), entrepreneurial spirit runs in my family's and my own bones. From a young age, we were instilled with the belief that one must become their own "boss" and setup their own business. My aspiration is to become a serial entrepreneur.<br>
 
 ---
+## Acknowledgement
+Thanks to Xuerui Huang, Chong-Xin Gan, and Lishi Zuo for the help in manual check and participation in discussion.
+
+## Contact Us
+In case you have any questions and queries about the database you can directly communicate with Ruichen Zuo by email (ruichen.zuo@connect.polyu.hk,).
+
+{%
+  include button.html
+  type="address"
+  tooltip="Our location on Google Maps"
+  link="https://maps.app.goo.gl/buxChGFGYULrLfkb9"
+%}
+
+---
 <!--
 ## OpenIoT Team
 
