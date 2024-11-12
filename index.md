@@ -1,7 +1,6 @@
 ---
 layout: page
 ---
-
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -27,11 +26,11 @@ layout: page
 </body>
 </html>
 
-# Sub3Vox Project
+# Sub3Project
 
 ---
 
-*The aim of the Sub3Vox project is collecting a new database for text-dependent, text-prompted, and text-independent speaker recognition, as well as for Persian speech recognition.*
+*The aim of the Sub3project is collecting a new database for text-dependent, text-prompted, and text-independent speaker recognition, as well as for Persian speech recognition.*
 
 ## Sub3Vox Corpus
 
