@@ -14,11 +14,11 @@ title: Evaluation Results
     text-align: center;
   }
   .responsive-img1 {
-    max-width: 100%;
+    max-width: 75%;
     height: auto;
   }
   .responsive-img2 {
-  max-width: 100%;
+  max-width: 75%;
   height: auto;
   }
 </style>
@@ -35,9 +35,8 @@ In TD-SV, both the speaker and the spoken content are considered. As shown in Ta
 
 <center>
 <img src="https://slash1028.github.io/Image/Table2.png" class="responsive-img1" alt="自适应图片">
-
 </center>
-
+<br>
 Lower equal error rate (EER) and minimum decision cost function (minDCF) indicate better performance. Since Sub3Vox is derived from VoxCeleb1 and the model is pre-trained on VoxCeleb2, it simulates real-life scenarios with unseen speakers and passwords. Testing on future Sub3Vox versions derived from VoxCeleb2 should yield better performance with lower EER and minDCF.
 
 ## Performance Metrics
@@ -53,13 +52,13 @@ We tested text-dependent and text-independent speaker verification to compare me
 <center>
 <img src="https://slash1028.github.io/Image/Table3.png" class="responsive-img1" alt="自适应图片">
 </center>
-
+<br>
 The number of trials are shown in Table 3. Results shown in Table 4 exclude 1-word phrases (such as "and", "the", etc.) because they are rarely used in speaker verification systems. Since Sub3Vox was derived from VoxCeleb1 and the models were pre-trained on VoxCeleb2, Sub3Vox can simulate real-life scenarios with unseen speakers and passwords. Testing on future Sub3Vox versions derived from VoxCeleb2 should yield better performance.
 
 <center>
 <img src="https://slash1028.github.io/Image/Table4.png" class="responsive-img1" alt="自适应图片">
 </center>
-
+<br>
 Compared with text-independent speaker verification, the performance improvement of the text-dependent method is over 30\%,  which is consistent across gender and evaluation subsets. The highlighted example in Table 4 reaches a performance improvement up to 45.23\%, which was achieved by ResNet221-LM in the female speakers. Among the male speakers, there is also a performance improvement up to 41.54\%. These results demonstrate that TD-SV has a significant advantage over TI-SV, especially when the test utterances are short.
 
 <center>
