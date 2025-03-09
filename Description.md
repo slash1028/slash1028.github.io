@@ -31,25 +31,21 @@ title: Corpus Description
 
 ## Data Overview
 
-Sub3Vox contains 1,250 speakers: 1,210 in the dev set and 40 in the test set, with 560 female and 690 male speakers. Compared to the original VoxCeleb2, there is a slight decrease in the number of speakers because Sub3Vox includes only English utterances, excluding speakers with samples in other languages. 
+As shown in Table 1, Sub3Vox contains 1,250 speakers: 1,210 in "eval1" and 40 in "eval2", with 560 female and 690 male speakers. Compared to the original VoxCeleb, there is a slight decrease in the number of speakers because Sub3Vox includes only English utterances. 
+
+We divided Sub3Vox into  "eval1", and "eval2", where the utterances in Sub3Vox-eval1 were obtained from VoxCeleb1-dev and the utterances in Sub3Vox-eval2 were obtained from VoxCeleb1-test. Table 1 shows the total duration, number of unique phrases, and number of utterances in each part of the corpus. Figure 2 illustrates that most utterances in Sub3Vox are less than two seconds. 
 
 <center>
 <img src="https://slash1028.github.io/Image/speakernumber.png" class="responsive-img1" alt="自适应图片">
+<br>
+Table 1: The total duration and the numbers of speakers, unique phrases, and unique utterances in each subset of Sub3Vox.
 </center>
-
-<br>We sorted commonly used N-grams in each part of the corpus, as shown in Table II. While we searched for phrases with N ranging from one to nine, higher N-grams naturally appear less frequently
 
 <center>
 <img src="https://slash1028.github.io/Image/totalduration.png" class="responsive-img1" alt="自适应图片">
-</center>
-<br>
-
-## Types of Errors and the Others
-
-We classified the recordings in the new corpus into six kinds to ensure robustness and real-world applicability. They are pre-ambiguous, post-ambiguous, pre- and post- ambiguous, stammer, clear, and wrong.
-
-<center>
-<img src="https://slash1028.github.io/Image/error_types.png" class="responsive-img1" alt="自适应图片">
+<br>Figure 2: Duration distributions of the phrases in Sub3Vox.
 </center>
 
-Most wrong samples result from fast and ambiguous pronunciation, with only a few caused by hallucinations from the speech recognition model.
+The demographic distribution in Sub3Vox is similar to that of VoxCeleb1, with most speakers from the USA and UK. Those native English speakers speak faster, making the trimmed segments shorter compared to the manual recordings, where speakers utter pre-defined phrases or sentences. 
+
+For each $N$ from 1 to 9, we sorted the commonly used N-word phrases in the whole VoxCeleb1. Apparently, the frequency of occurrences of these N-word phrases decreases with $N$. Because none of the speakers in VoxCeleb1 spoke the same 9-word phrases twice, the maximum number of words in a phrase in Sub3Vox is 8. In the future, we will increase this number using a larger TI corpus, such as VoxBlink.
