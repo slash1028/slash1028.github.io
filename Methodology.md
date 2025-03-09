@@ -30,7 +30,7 @@ title: Corpus Methodology
 ---
 
 <center>
-<img src="https://slash1028.github.io/newimage/Figure1.png" class="responsive-img" alt="自适应图片">
+<img src="https://slash1028.github.io/Image/Figure1.png" class="responsive-img" alt="自适应图片">
 <br>
 Figure 1: Flowchart of the proposed pipeline for creating a TD-SVcorpus from a TI-SV corpus.
 </center>
