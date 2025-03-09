@@ -33,11 +33,11 @@ title: Corpus Description
 
 As shown in Table 1, Sub3Vox contains 1,250 speakers: 1,210 in "eval1" and 40 in "eval2", with 560 female and 690 male speakers. Compared to the original VoxCeleb, there is a slight decrease in the number of speakers because Sub3Vox includes only English utterances. 
 
-We divided Sub3Vox into  "eval1", and "eval2", where the utterances in Sub3Vox-eval1 were obtained from VoxCeleb1-dev and the utterances in Sub3Vox-eval2 were obtained from VoxCeleb1-test. Table 1 shows the total duration, number of unique phrases, and number of utterances in each part of the corpus. Figure 2 illustrates that most utterances in Sub3Vox are less than two seconds. 
-
 <center>
 <img src="https://slash1028.github.io/Image/Table1.png" class="responsive-img1" alt="自适应图片">
 </center>
+
+We divided Sub3Vox into  "eval1", and "eval2", where the utterances in Sub3Vox-eval1 were obtained from VoxCeleb1-dev and the utterances in Sub3Vox-eval2 were obtained from VoxCeleb1-test. Table 1 shows the total duration, number of unique phrases, and number of utterances in each part of the corpus. Figure 2 illustrates that most utterances in Sub3Vox are less than two seconds. 
 
 <center>
 <img src="https://slash1028.github.io/Image/Figure2.png" class="responsive-img1" alt="自适应图片">

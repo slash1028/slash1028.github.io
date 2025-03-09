@@ -14,7 +14,7 @@ title: Corpus Methodology
     text-align: center;
   }
   .responsive-img {
-    max-width: 100%;
+    max-width: 125%;
     height: auto;
   }
 </style>
@@ -32,16 +32,13 @@ title: Corpus Methodology
 <center>
 <img src="https://slash1028.github.io/Image/Figure1.png" class="responsive-img" alt="自适应图片">
 <br>
-Figure 1: Flowchart of the proposed pipeline for creating a TD-SVcorpus from a TI-SV corpus.
 </center>
 
 ---
 
 ## Derive TD Corpora from TI Corpora
 
-To overcome the size limitation of existing TD-SV corpora, we must expand speaker diversity, recording quantity, and usage scenarios. In particular, we require a substantial increase in the number of speakers and more diverse recordings. Such requirements can be fulfilled by leveraging the resources in large TI corpora. The flowchart of our proposed automatic pipeline is shown in Figure 1. It contains four steps, which will be explained further in the following subsections.
-
-The sub-3sec problem motivates a new way to gather resources for text-dependent verification. Typically, speech corpora are curated by requesting speakers to speak live through some recording front-ends or remotely through a telephone or mobile network [26]. Over the years, many corpora, such as TIMIT [27], RSR2015 [28], and Mixer [29], have played a critical role in advancing speaker recognition technology. However, the laborious manual work always limit the size of these corpora compared with the automatically curated ones, such as the VoxCeleb [19]. To solve the sub- 3sec problem mentioned in Section II, it is possible to derive a large text-dependent corpus from text-independent corpora using automated pipelines, since it is easy to find enough short phrases less than three seconds that many people would say in daily life from large TI corpora. On the other hand, number of longer phrases (such as “open the refrigerator to get some vegetables and drinks”) is much smaller. The flowchart of our proposed automatic pipeline is shown in Figure 1. It contains four steps, which will be explained further in the following subsections.
+To overcome the size limitation of existing TD-SV corpora, we must expand speaker diversity, recording quantity, and usage scenarios. In particular, we require a substantial increase in the number of speakers and more diverse recordings. Such requirements can be fulfilled by leveraging the resources in large TI corpora. The flowchart of our proposed automatic pipeline is shown in Figure 1. It contains four steps, which will be explained further in the following subsections. It contains four steps, which will be explained further in the following subsections.
 
 ## Speech-to-Text
 
