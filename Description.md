@@ -36,13 +36,13 @@ As shown in Table 1, Sub3Vox contains 1,250 speakers: 1,210 in "eval1" and 40 in
 We divided Sub3Vox into  "eval1", and "eval2", where the utterances in Sub3Vox-eval1 were obtained from VoxCeleb1-dev and the utterances in Sub3Vox-eval2 were obtained from VoxCeleb1-test. Table 1 shows the total duration, number of unique phrases, and number of utterances in each part of the corpus. Figure 2 illustrates that most utterances in Sub3Vox are less than two seconds. 
 
 <center>
-<img src="https://slash1028.github.io/Image/speakernumber.png" class="responsive-img1" alt="自适应图片">
+<img src="https://slash1028.github.io/newimage/Table 1.png" class="responsive-img1" alt="自适应图片">
 <br>
 Table 1: The total duration and the numbers of speakers, unique phrases, and unique utterances in each subset of Sub3Vox.
 </center>
 
 <center>
-<img src="https://slash1028.github.io/Image/totalduration.png" class="responsive-img1" alt="自适应图片">
+<img src="https://slash1028.github.io/newimage/Figure2.png" class="responsive-img1" alt="自适应图片">
 <br>Figure 2: Duration distributions of the phrases in Sub3Vox.
 </center>
 
