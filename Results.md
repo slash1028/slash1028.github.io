@@ -36,6 +36,7 @@ In TD-SV, both the speaker and the spoken content are considered. As shown in Ta
 <center>
 <img src="https://slash1028.github.io/Image/performence.png" class="responsive-img1" alt="自适应图片">
 <br>Table 2: Four types of trials in TD-SV
+
 </center>
 
 Lower equal error rate (EER) and minimum decision cost function (minDCF) indicate better performance. Since Sub3Vox is derived from VoxCeleb1 and the model is pre-trained on VoxCeleb2, it simulates real-life scenarios with unseen speakers and passwords. Testing on future Sub3Vox versions derived from VoxCeleb2 should yield better performance with lower EER and minDCF.
@@ -55,6 +56,7 @@ The number of trials are shown in Table 3. Results shown in Table 4 exclude 1-wo
 <img src="https://slash1028.github.io/Image/performence.png" class="responsive-img1" alt="自适应图片">
 <br>Table 3: The numbers of trials in the four trial types in Sub3Vox. 
 <br>TC: Target-correct; TW: Target-wrong; IC: Imposter-correct; IW: Imposter-wrong.
+
 </center>
 
 <center>
@@ -70,6 +72,7 @@ Figure 3 shows the impact of the number of words in a phrase on the performance 
 <center>
 <img src="https://slash1028.github.io/Image/performence.png" class="responsive-img1" alt="自适应图片">
 <br>Figure 3: The impact of phrase durations on the performance of TI-SV and TD-SV systems. In the horizontal axis, from left to right, the short phrases (1-word and 2-word phrases) are progressively excluded, leading to longer durations for the test phrases.
+
 </center>
 
 ## Performance on Fixed Number of Words
