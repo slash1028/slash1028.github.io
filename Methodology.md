@@ -14,7 +14,7 @@ title: Corpus Methodology
     text-align: center;
   }
   .responsive-img {
-    max-width: 65%;
+    max-width: 100%;
     height: auto;
   }
 </style>

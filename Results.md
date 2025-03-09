@@ -14,11 +14,11 @@ title: Evaluation Results
     text-align: center;
   }
   .responsive-img1 {
-    max-width: 100%;
+    max-width: 75%;
     height: auto;
   }
   .responsive-img2 {
-  max-width: 65%;
+  max-width: 75%;
   height: auto;
   }
 </style>
@@ -34,9 +34,7 @@ title: Evaluation Results
 In TD-SV, both the speaker and the spoken content are considered. As shown in Table 2, TD-SV has four trial types: target-correct (TC), imposter-correct (IC), target-wrong (TW), and imposter-wrong (IW). The system accepted a test speaker only when he/she spoke the correct phrase (TC) during verification.
 
 <center>
-<img src="https://slash1028.github.io/Image/performence.png" class="responsive-img1" alt="自适应图片">
-<br>Table 2: Four types of trials in TD-SV
-
+<img src="https://slash1028.github.io/Image/Table2.png" class="responsive-img1" alt="自适应图片">
 </center>
 
 Lower equal error rate (EER) and minimum decision cost function (minDCF) indicate better performance. Since Sub3Vox is derived from VoxCeleb1 and the model is pre-trained on VoxCeleb2, it simulates real-life scenarios with unseen speakers and passwords. Testing on future Sub3Vox versions derived from VoxCeleb2 should yield better performance with lower EER and minDCF.
@@ -53,16 +51,11 @@ We tested text-dependent and text-independent speaker verification to compare me
 The number of trials are shown in Table 3. Results shown in Table 4 exclude 1-word phrases (such as "and", "the", etc.) because they are rarely used in speaker verification systems. Since Sub3Vox was derived from VoxCeleb1 and the models were pre-trained on VoxCeleb2, Sub3Vox can simulate real-life scenarios with unseen speakers and passwords. Testing on future Sub3Vox versions derived from VoxCeleb2 should yield better performance.
 
 <center>
-<img src="https://slash1028.github.io/Image/performence.png" class="responsive-img1" alt="自适应图片">
-<br>Table 3: The numbers of trials in the four trial types in Sub3Vox. 
-<br>TC: Target-correct; TW: Target-wrong; IC: Imposter-correct; IW: Imposter-wrong.
-
+<img src="https://slash1028.github.io/Image/Table3.png" class="responsive-img1" alt="自适应图片">
 </center>
 
 <center>
-<img src="https://slash1028.github.io/Image/performence.png" class="responsive-img1" alt="自适应图片">
-<br>Table 4: EER and minDCF achieved by ECAPA-TDNN and
-ResNet-221 on Sub3Vox.
+<img src="https://slash1028.github.io/Image/Table4.png" class="responsive-img1" alt="自适应图片">
 </center>
 
 Compared with text-independent speaker verification, the performance improvement of the text-dependent method is over 30\%,  which is consistent across gender and evaluation subsets. The highlighted example in Table~\ref{tab_overall} reaches a performance improvement up to 45.23\%, which was achieved by ResNet221-LM in the female speakers. Among the male speakers, there is also a performance improvement up to 41.54\%. These results demonstrate that TD-SV has a significant advantage over TI-SV, especially when the test utterances are short.
@@ -70,8 +63,7 @@ Compared with text-independent speaker verification, the performance improvement
 Figure 3 shows the impact of the number of words in a phrase on the performance under TI-SV and TD-SV settings. The average utterance durations in Sub3Vox are 564ms for males and 587ms for females. At these mean durations, the expected numbers of words are 2.4 for both gender. Because the enrollment and test utterances have an integral number of words, we report the performance of TI-SV and TD-SV under 1--8 words, 2--8 words, and 3--8 words in Figure 3. This arrangement means that the evaluations on 2--8 words will exclude all 1-word phrases. Similarly, the evaluations on 3--8 words will exclude all 1-word and 2-word phrases. The results show that the TI-SV suffers from a more severe performance drop (increase in EER) when the evaluations include 1-word and 2-word phrases. The performance drop in TI-SV is even more severe when the evaluations include 1-word phrases, especially for the ResNet-211. The trend clearly suggests that TD-SV is a better choice for short-utterance scenarios.
 
 <center>
-<img src="https://slash1028.github.io/Image/performence.png" class="responsive-img1" alt="自适应图片">
-<br>Figure 3: The impact of phrase durations on the performance of TI-SV and TD-SV systems. In the horizontal axis, from left to right, the short phrases (1-word and 2-word phrases) are progressively excluded, leading to longer durations for the test phrases.
+<img src="https://slash1028.github.io/Image/Figure3.png" class="responsive-img1" alt="自适应图片">
 
 </center>
 
@@ -79,7 +71,6 @@ Figure 3 shows the impact of the number of words in a phrase on the performance 
 We also conducted experiments in which all trials used utterances with a fixed number of words, e.g., 1-word phrases, 2-word phrases, and 3-word phrases. The results are shown in Figure 4. Evidently, the EER decreases when the number of words in the phrases increases. Again, the performance of TD-SV is always better than that of TI-SV.
 
 <center>
-<img src="https://slash1028.github.io/Image/performence.png" class="responsive-img1" alt="自适应图片">
-<br>Figure 4: The EER performance of ECAPA1024 LM on Sub3Vox-eval2 for different numbers of words in the test utterances (phrases).
+<img src="https://slash1028.github.io/Image/Figure4.png" class="responsive-img1" alt="自适应图片">
 
 </center>

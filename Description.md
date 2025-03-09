@@ -14,11 +14,11 @@ title: Corpus Description
     text-align: center;
   }
   .responsive-img1 {
-    max-width: 60%;
+    max-width: 75%;
     height: auto;
   }
   .responsive-img2 {
-  max-width: 65%;
+  max-width: 70%;
   height: auto;
   }
 </style>
@@ -37,13 +37,10 @@ We divided Sub3Vox into  "eval1", and "eval2", where the utterances in Sub3Vox-e
 
 <center>
 <img src="https://slash1028.github.io/Image/Table1.png" class="responsive-img1" alt="自适应图片">
-<br>
-Table 1: The total duration and the numbers of speakers, unique phrases, and unique utterances in each subset of Sub3Vox.
 </center>
 
 <center>
 <img src="https://slash1028.github.io/Image/Figure2.png" class="responsive-img1" alt="自适应图片">
-<br>Figure 2: Duration distributions of the phrases in Sub3Vox.
 </center>
 
 The demographic distribution in Sub3Vox is similar to that of VoxCeleb1, with most speakers from the USA and UK. Those native English speakers speak faster, making the trimmed segments shorter compared to the manual recordings, where speakers utter pre-defined phrases or sentences. 
