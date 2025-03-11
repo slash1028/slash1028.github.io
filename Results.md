@@ -40,7 +40,7 @@ In TD-SV, both the speaker and the spoken content are considered. As shown in Ta
 Lower equal error rate (EER) and minimum decision cost function (minDCF) indicate better performance. Since Sub3Vox is derived from VoxCeleb1 and the model is pre-trained on VoxCeleb2, it simulates real-life scenarios with unseen speakers and passwords. Testing on future Sub3Vox versions derived from VoxCeleb2 should yield better performance with lower EER and minDCF.
 
 ## Performance Metrics
-The equal error rate (EER) and minimum detection cost function (minDCF) were used to measure the performance of the model. The parameter setting of minDCF follows~\cite{larcher2012rsr2015}, where $C_{Miss}=10$ is the cost of missing a target speaker, $C_{FA}=1$ is the cost of false acceptance, $P_{Target}=0.01$ is the prior probability of target speakers, which means that the probability of the correct target speaker appearing in practical applications is 0.01. Lower equal error rate (EER) and minimum decision cost function (minDCF) indicate better performance. 
+The equal error rate (EER) and minimum detection cost function (minDCF) were used to measure the performance of the model. The parameter setting of minDCF follows~\cite{larcher2012rsr2015}, where *C_{Miss}=10* is the cost of missing a target speaker, *C_{FA}=1* is the cost of false acceptance, *P_{Target}=0.01* is the prior probability of target speakers, which means that the probability of the correct target speaker appearing in practical applications is 0.01. Lower equal error rate (EER) and minimum decision cost function (minDCF) indicate better performance. 
 
 ## Performance
 In speaker verification on VoxCeleb, models are typically trained on VoxCeleb2 and tested on VoxCeleb1. Specifically, VoxCeleb2's dev and test sets are used for training, while VoxCeleb's dev and test sets are used for testing. We used pre-trained models from VoxCeleb2 in WeSpeaker (ECAPA1024\_LM and ResNet221\_LM) to test the performance on the curated Sub3Vox. The supported scoring back-end is cosine similarity with score normalization.
@@ -59,7 +59,7 @@ The number of trials are shown in Table 3. Results shown in Table 4 exclude 1-wo
 <img src="https://slash1028.github.io/Image/Table4.png" class="responsive-img1" alt="自适应图片">
 </center>
 <br>
-Compared with text-independent speaker verification, the performance improvement of the text-dependent method is over 30\%,  which is consistent across gender and evaluation subsets. The highlighted example in Table 4 reaches a performance improvement up to 45.23%, which was achieved by ResNet221-LM in the female speakers. Among the male speakers, there is also a performance improvement up to 41.54%. These results demonstrate that TD-SV has a significant advantage over TI-SV, especially when the test utterances are short.
+Compared with text-independent speaker verification, the performance improvement of the text-dependent method is over 30%,  which is consistent across gender and evaluation subsets. The highlighted example in Table 4 reaches a performance improvement up to 45.23%, which was achieved by ResNet221-LM in the female speakers. Among the male speakers, there is also a performance improvement up to 41.54%. These results demonstrate that TD-SV has a significant advantage over TI-SV, especially when the test utterances are short.
 
 <center>
 <img src="https://slash1028.github.io/Image/Figure3.png" class="responsive-img1" alt="自适应图片">

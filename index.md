@@ -30,17 +30,16 @@ layout: page
 
 ---
 
-*The aim of the Sub3project is collecting a new database for text-dependent, text-prompted, and text-independent speaker recognition, as well as for Persian speech recognition.*
+*This paper introduces the sub-3sec problem in speaker verification, a short-duration task rarely explored. The issue arises from labor-intensive annotations and costly recordings for textdependent speaker verification (TD-SV) corpora. To address this issue, we propose an automatic pipeline to extract short phrases from text-independent speaker verification (TI-SV) corpora.*
 
 ## Sub3Vox Corpus
 
-The Sub3Vox, a new English corpus, is introduced for TD-SV. It was created from a TI-SV dataset in an automated pipeline and is larger than any existing TD-SV corpora. This is the first time that a TD-SV corpus has been created from a TI-SV corpus. The characteristics of the Sub3Vox are analyzed, and its baseline performance is reported.
-
-In the paper, we propose an automatic pipeline to curate TD-SV corpora from TI-SV corpora, which addresses the shortcomings of the existing TD corpora not being large enough and saves the effort in manual recording.
+This work introduces the Sub3Vox, a novel English corpus for TD-SV. It was generated from a TI-SV dataset by a novel automated pipeline and is larger than any existing TDSV corpora. Notably, this is the first time that a TD-SV corpus has been created from a TI-SV corpus. We further analyze the characteristics of Sub3Vox and report its baseline performance. The proposed pipeline can be applied to other TI-SV datasets, offering a scalable solution for generating large TD-SV corpora.
 
 <center>
 <img src="https://slash1028.github.io/Image/Paper_title.png" class="responsive-img1" alt="自适应图片">
 </center>
+<br>
 
 ## How and When you can access the database
 
@@ -48,5 +47,5 @@ As mentioned before, the project is running now and the first phase of it should
 
 ## News and Updates
 
-- **Sep 2024**：Our paper "Denoising Student Features with Diffusion Models for Knowledge Distillation in Speaker Verification" has been submitted to the Main Tracks of the [2025 IEEE International Conference on Acoustics, Speech and Signal Processing](https://2025.ieeeicassp.org/). See you in Hyderabad, India!
+- **Feb 2025**：Our paper "Denoising Student Features with Diffusion Models for Knowledge Distillation in Speaker Verification" has been submitted to the Main Tracks of the [Interspeech 2025](https://www.interspeech2025.org). See you in Rotterdam, The Netherlands!
 - **May 2024**：We curated our first Sub3Vox corpus from VoxCeleb1!
