@@ -35,7 +35,6 @@ layout: page
 <center>
 <img src="https://slash1028.github.io/Image/Paper_title.png" class="responsive-img1" alt="自适应图片">
 </center>
-<br>
 
 ---
 
