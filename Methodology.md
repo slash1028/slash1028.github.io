@@ -29,6 +29,8 @@ title: Corpus Methodology
 
 ---
 
+The flowchart of our proposed automatic pipeline is shown in Figure 1. It contains four steps, which will be explained further in the following subsections. It contains four steps, which will be explained further in the following subsections.
+
 <center>
 <img src="https://slash1028.github.io/Image/Figure1.png" class="responsive-img" alt="自适应图片">
 <br>
@@ -38,7 +40,7 @@ title: Corpus Methodology
 
 ## Derive TD Corpora from TI Corpora
 
-To overcome the size limitation of existing TD-SV corpora, we must expand speaker diversity, recording quantity, and usage scenarios. In particular, we require a substantial increase in the number of speakers and more diverse recordings. Such requirements can be fulfilled by leveraging the resources in large TI corpora. The flowchart of our proposed automatic pipeline is shown in Figure 1. It contains four steps, which will be explained further in the following subsections. It contains four steps, which will be explained further in the following subsections.
+To overcome the size limitation of existing TD-SV corpora, we must expand speaker diversity, recording quantity, and usage scenarios. In particular, we require a substantial increase in the number of speakers and more diverse recordings. Such requirements can be fulfilled by leveraging the resources in large TI corpora. 
 
 ## Speech-to-Text
 
