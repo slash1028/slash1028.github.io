@@ -8,8 +8,7 @@ title: About Us
 
 The Sub3Sec project is down by the Speech Signal Processing lab, PolyU<br>
 Our Lab location on Google Maps can find [here](https://maps.app.goo.gl/buxChGFGYULrLfkb9).
-%The Sub3Sec project is a joint work by [Dr. Lee's Research Team](https://sites.google.com/view/kongaiklee/home) and [Innovation Technology (HK) Audio and Speech Signal Processing Joint Laboratory](https://www.polyu.edu.hk/eee/research/research-themes-and-strength/artificial-intelligence-and-robotics/), PolyU<br>
-Our Lab location on Google Maps can find [here](https://maps.app.goo.gl/buxChGFGYULrLfkb9).  
+
 
 ## Acknowledgement
 Thanks to Xuerui Huang, Chong-Xin Gan, and Lishi Zuo for the help in manual check and participation in discussion.
