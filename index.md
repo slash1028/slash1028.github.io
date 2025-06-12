@@ -46,7 +46,6 @@ This work introduces the Sub3Vox, a novel English corpus for TD-SV. It was gener
 
 The data in Sub3Vox1 will be available soon.
 
-#As mentioned before, the project is running now and the first phase of it should be finished by the end of summer. If you are interested in the unprocessed data, we can provide access to the last snapshot of the database. You can communicate with us to discuss about this possibility.
 
 ## News and Updates
 - **May 2025**：Our paper "The Sub-3Sec Problem: From Text-Independent to Text-Dependent Corpus" has been accepted by the Main Tracks of the [Interspeech 2025](https://www.interspeech2025.org). See you in Rotterdam, the Netherlands!
