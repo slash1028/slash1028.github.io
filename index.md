@@ -40,13 +40,15 @@ layout: page
 
 ## Sub3Vox Corpus
 
-This work introduces the Sub3Vox, a novel English corpus for TD-SV. It was generated from a TI-SV dataset by a novel automated pipeline and is larger than any existing TDSV corpora. Notably, this is the first time that a TD-SV corpus has been created from a TI-SV corpus. We further analyze the characteristics of Sub3Vox and report its baseline performance. The proposed pipeline can be applied to other TI-SV datasets, offering a scalable solution for generating large TD-SV corpora.
+This work introduces the Sub3Vox, a novel English corpus for TD-SV. It was generated from a TI-SV dataset by a novel automated pipeline and is larger than any existing TD-SV corpora. Notably, this is the first time that a TD-SV corpus has been created from a TI-SV corpus. We further analyze the characteristics of Sub3Vox and report its baseline performance. The proposed pipeline can be applied to other TI-SV datasets, offering a scalable solution for generating large TD-SV corpora.
 
 ## How and When you can access the database
 
-As mentioned before, the project is running now and the first phase of it should be finished by the end of summer. If you are interested in the unprocessed data, we can provide access to the last snapshot of the database. You can communicate with us to discuss about this possibility.
+The data in Sub3Vox1 will be available soon.
+
+#As mentioned before, the project is running now and the first phase of it should be finished by the end of summer. If you are interested in the unprocessed data, we can provide access to the last snapshot of the database. You can communicate with us to discuss about this possibility.
 
 ## News and Updates
-
-- **Feb 2025**：Our paper "Denoising Student Features with Diffusion Models for Knowledge Distillation in Speaker Verification" has been submitted to the Main Tracks of the [Interspeech 2025](https://www.interspeech2025.org). See you in Rotterdam, The Netherlands!
+- **May 2025**：Our paper "The Sub-3Sec Problem: From Text-Independent to Text-Dependent Corpus" has been accepted by the Main Tracks of the [Interspeech 2025](https://www.interspeech2025.org). See you in Rotterdam, the Netherlands!
+- **Feb 2025**：Our paper "The Sub-3Sec Problem: From Text-Independent to Text-Dependent Corpus" has been submitted to the Main Tracks of the [Interspeech 2025](https://www.interspeech2025.org).
 - **May 2024**：We curated our first Sub3Vox corpus from VoxCeleb1!
