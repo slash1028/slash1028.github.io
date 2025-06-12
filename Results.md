@@ -40,12 +40,12 @@ In TD-SV, both the speaker and the spoken content are considered. As shown in Ta
 Lower equal error rate (EER) and minimum decision cost function (minDCF) indicate better performance. Since Sub3Vox is derived from VoxCeleb1 and the model is pre-trained on VoxCeleb2, it simulates real-life scenarios with unseen speakers and passwords. Testing on future Sub3Vox versions derived from VoxCeleb2 should yield better performance with lower EER and minDCF.
 
 ## Performance Metrics
-The equal error rate (EER) and minimum detection cost function (minDCF) were used to measure the performance of the model. The parameter setting of minDCF follows~\cite{larcher2012rsr2015}, where *C_{Miss}=10* is the cost of missing a target speaker, *C_{FA}=1* is the cost of false acceptance, *P_{Target}=0.01* is the prior probability of target speakers, which means that the probability of the correct target speaker appearing in practical applications is 0.01. Lower equal error rate (EER) and minimum decision cost function (minDCF) indicate better performance. 
+The equal error rate (EER) and minimum detection cost function (minDCF) were used to measure the performance of the model. The parameter setting of minDCF follows RSR2015, where $`C_{Miss}=10`$ is the cost of missing a target speaker, $`C_{FA}=1`$ is the cost of false acceptance, $`P_{Target}=0.01`$ is the prior probability of target speakers, which means that the probability of the correct target speaker appearing in practical applications is 0.01. Lower equal error rate (EER) and minimum decision cost function (minDCF) indicate better performance. 
 
 ## Performance
-In speaker verification on VoxCeleb, models are typically trained on VoxCeleb2 and tested on VoxCeleb1. Specifically, VoxCeleb2's dev and test sets are used for training, while VoxCeleb's dev and test sets are used for testing. We used pre-trained models from VoxCeleb2 in WeSpeaker (ECAPA1024\_LM and ResNet221\_LM) to test the performance on the curated Sub3Vox. The supported scoring back-end is cosine similarity with score normalization.
+When using VoxCeleb to build and evaluate SV systems, models are typically trained on VoxCeleb2 and tested on VoxCeleb1. Specifically, VoxCeleb2’s dev and test sets are used for training, while VoxCeleb1’s dev and test sets are used for testing. We used pre-trained models from VoxCeleb2 in WeSpeaker (ECAPA1024_LM and ResNet221_LM) to test the performance on the curated Sub3Vox. The supported scoring back-end is cosine similarity with score normalization.
 
-We tested text-dependent and text-independent speaker verification to compare metrics under the same and different phonetic contexts, respectively. For enrollment, we used three different utterances of the same pass-phrase from the same speaker, with one segment as the test utterance.
+We tested text-dependent and text-independent speaker verification to compare metrics under the same and different phonetic contexts, respectively. For enrollment, we used three different utterances of the same passphrase from the same speaker, with one passphrase as the test utterance.
 
 ### Overall Performance
 
