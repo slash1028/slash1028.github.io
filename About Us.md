@@ -6,7 +6,7 @@ title: About Us
 
 ## About Us
 
-The Sub3Sec project is down by the Speech Signal Processing lab, PolyU<br>
+The Sub3Sec project is conducted by the Speech Signal Processing lab, PolyU<br>
 Our Lab location on Google Maps can be found [here](https://maps.app.goo.gl/buxChGFGYULrLfkb9).
 
 
