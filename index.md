@@ -44,7 +44,7 @@ This work introduces the Sub3Vox, a novel English corpus for TD-SV. It was gener
 
 ## How and when you can access the database
 
-The data in Sub3Vox1 will be available soon.
+Sub3Vox1: https://github.com/zuoruichen/Sub3Vox/tree/main
 
 
 ## News and Updates
